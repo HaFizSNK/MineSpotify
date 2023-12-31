@@ -1,0 +1,46 @@
+.navbar{
+    background-color: #0f0f0f;
+    color: white;
+}
+.navbar-nav{
+    margin-left: 720px;
+    gap: 20px;
+    
+}
+.nav-item{
+    border-radius: 100px solid;
+    color: #0f0f0f;
+    
+}
+.log{
+    background-color: #0f0f0f;
+    color: aliceblue;
+    border-radius: 20px;
+    margin-right:250px;
+}
+.sign{
+    background-color: aliceblue;
+    color: #0f0f0f;
+    border-radius: 30px;
+    height: 30px;
+    margin-right: 200px;
+}
+.form-control{
+    border-radius: 30px;
+}
+.forward-btn{
+    background-color: #0f0f0f;
+    color: aliceblue;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    
+
+}
+.backward-btn{
+    background-color: #0f0f0f;
+    color: aliceblue;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}

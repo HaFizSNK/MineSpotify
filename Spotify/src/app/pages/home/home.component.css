@@ -1,0 +1,38 @@
+.spotify-sidebar{
+    height: 100vh;
+    background-color: black;
+ 
+}
+.spotify-logo{
+    
+}
+.spotify-playlist{
+    height: 100vh;
+    background-color: #191919;
+}
+.sidebar-item{
+    
+    text-align: center;
+    width: 100%;
+ margin-top: 50px;   
+   
+
+}
+.sidebar-item a{
+    color: white;
+    text-decoration: none;
+}
+.spotify-playlist {
+    padding-left:0px ;
+}
+.card-collection{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    overflow-x: auto;
+    height: 100vh;
+    max-width: 1500px;
+}
+#cards-item{
+    min-width: 185px;
+}

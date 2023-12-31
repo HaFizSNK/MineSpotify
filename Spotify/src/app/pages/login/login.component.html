@@ -1,0 +1,28 @@
+<div class="login-container">
+<form {FormGroup}="userFrom"  (ngSubmit)="OnSubmit()">
+    <div class="login-container-fluid row">
+        <div class="log-logo ">
+            spotify
+        </div>
+        <div class="login-card">
+            <h3 style="text-align: center;margin-top: 5px;color: aliceblue;">Login to Spotify</h3>
+            <div class="login-btn row ">
+                <button class="btn">Continue with Google</button>
+                <button  class="btn">Continue with facebook</button>
+                <button  class="btn">Continue with Apple</button>
+            </div>
+  <div class="form mt-4">
+    <h6 class="input">Email or Username:</h6>
+    <input {FromControl}="usernameFromControl" type="text" class="input" placeholder="EnterYourname">
+    <h6 class="input">Password</h6>
+    <input  {FromControl}="passwordFromControl"ntype="text"  class="input"placeholder="Password"><br>
+    <button class="form-btn">Login</button>
+    <p><a href="">Forget Your Password?</a></p>
+  </div>
+         <p>Don't have an account? <a href="">SignUp</a></p>
+
+        </div>
+    </div>
+
+</form>   
+</div>

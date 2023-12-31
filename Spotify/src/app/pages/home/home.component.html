@@ -1,0 +1,57 @@
+<div class="Spotify-container row">
+    <div class="spotify-sidebar col-2">
+        <div class="spotify-logo">
+            <img src="../../../assets/Spotify_Logo_RGB_White.png" alt="" style="height: 8vh;margin-top: 2px;margin-left: 5px;text-align: center">
+        </div>
+        <div class="sidebar-item">
+            
+            <a href=""(click)="OnNavigation('home')">home</a>
+        </div>
+            <div class="sidebar-item">
+                <a href="" (click)="OnNavigation('search')">Search</a>
+            </div>
+
+                <div class="sidebar-item">
+                    <a href=""(click)="OnNavigation('library')">Library</a>
+                </div>
+                <div class="sidebar-item">
+                    <a href=""(click)="OnNavigation('playlist')">Create Playlist</a>
+                </div>
+    </div>
+    <div class="spotify-playlist col-10">
+        <app-top-nav></app-top-nav>
+        
+        <div class="mt-4 container-fluid">
+            <h4 style="color: aliceblue;margin-top: 20px; margin-left: 10px;">Focus</h4>
+            <div class="card-collection">
+                <div id="card-item" *ngFor="let sc of songscard">
+                    <app-song-card
+            [playlistThumbnail]="'sc.Thumbnail'"
+            [title]="'sc.Arabic'" [description]="'sc.Relaxtion'">
+        </app-song-card> 
+
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="mt-5 container-fluid" style="margin-top: 100px;padding-top: 150px;">
+            <h4 style="color: aliceblue;margin-top: 20px; margin-left: 10px;">Spotify Playlist</h4>
+            <div class="card-collection">
+                <div id="card-item" *ngFor="let sc of songscard">
+                    <app-song-card
+            [playlistThumbnail]="'sc.Thumbnail'"
+            [title]="'sc.Arabic'" [description]="'sc.Relaxtion'">
+        </app-song-card> 
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</div>
+
+
+
+

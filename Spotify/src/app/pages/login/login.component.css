@@ -1,0 +1,39 @@
+.login-container{
+    background-color: rgb(42, 41, 41);
+    height: 100vh;
+}
+.log-logo{
+    background-color: black;
+    height: 100px;
+}
+.login-card{
+    margin-top: 50px;
+    background-color: black;
+    width: 450px;
+    height: 75vh;
+    margin-left: 500px;
+    border-radius: 20px;
+}
+.btn{
+    background-color: white;
+    border-radius: 200px;
+    gap:20px;
+    margin-top: 20px;
+}
+.form-btn{
+    background-color: rgb(14, 239, 14);
+    border-radius: 30px;
+    border:2px solid black;
+    text-align: center;
+    margin-left: 100px;
+    width: 200px;
+    margin-top: 10px;
+}
+.form a{
+    margin-left: 120px;
+    color: bisque;
+}
+.input{
+   
+    margin-left: 100px;
+}
